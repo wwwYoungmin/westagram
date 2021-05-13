@@ -1,0 +1,29 @@
+.middle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 611px;
+    button {
+        position: absolute;
+        top: 50%;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: white;
+        opacity: .40;
+        font-size: 16px;
+        font-weight: 600;
+        color: #828282;
+        border: 0;
+        cursor: pointer;
+    }
+    img {
+        width: 611px;
+    }
+    .leftB {
+        left: 10px;
+    }
+    .rightB {
+        right: 10px;
+    }
+}

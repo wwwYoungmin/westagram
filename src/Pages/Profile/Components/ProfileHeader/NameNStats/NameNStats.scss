@@ -1,0 +1,41 @@
+.nameNStats {
+    .name{
+        display:flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    h2 {
+        a{
+            font-size: 28px;
+        }
+        font-weight: 300;
+    }
+    button {
+        margin-left: 20px;
+        background-color: transparent;
+        border: 1px solid #dbdbdb;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 5px 9px;
+    }
+    img {
+        width: 24px;
+        height: 24px;
+        margin-left: 5px;
+        padding: 8px;
+    }
+    .stats {
+        margin-bottom: 20px;
+        span {
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 40px;
+            a {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+}

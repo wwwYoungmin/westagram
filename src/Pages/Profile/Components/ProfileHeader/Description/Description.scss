@@ -1,0 +1,26 @@
+.description {
+    h1 {
+        font-size: 16px;
+        margin: 5px 0 5px 0;
+    }
+    p {
+        font-size: 16px;
+        margin: 5px 0 5px 0;
+        line-height: 24px;
+    }
+    a {
+        font-size: 16px;
+        color:#00376b;
+    }
+    .bioLink {
+        font-weight: 600;
+    }
+    .followed {
+        font-size: 12px;
+        color: gray;
+        .followedBy {
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}

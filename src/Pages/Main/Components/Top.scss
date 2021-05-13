@@ -1,0 +1,29 @@
+.top {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    padding: 0 0 0 11px;
+    position: relative;
+    img {
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+    .name {
+        width: 500px;
+        margin-left: 10px;
+        padding: 6px 0 6px 0;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .button {
+        position: absolute;
+        right: 12px;
+        width: 16px;
+        height: 16px;
+        fill: rgb(38,38,38);
+        cursor: pointer;
+    }
+}
