@@ -8,21 +8,21 @@ import Reply from './Reply'
 function Post(props) {
     return (
         <div className="post">
-            <Top id={props.id}
-                 name={props.name}
-                 img={props.img}/>
-            <Middle imgs={props.imgs}/>
+            <Top id={props.data.id}
+                 name={props.data.name}
+                 img={props.data.img}/>
+            <Middle imgs={props.data.imgs}/>
             <div>
-                <Bottom iLiked={props.iLiked}
-                        saved={props.saved}
-                        liked={props.liked}
-                        likedImg={props.likedImg}
-                        likes={props.likes}
-                        name={props.name}
-                        text={props.text}
-                        img={props.img}/>
-                <Reply time={props.time}
-                       replies={props.replies}/>
+                <Bottom iLiked={props.data.iLiked}
+                        saved={props.data.saved}
+                        liked={props.data.liked}
+                        likedImg={props.data.likedImg}
+                        likes={props.data.likes}
+                        name={props.data.name}
+                        text={props.data.text}
+                        img={props.data.img}/>
+                <Reply time={props.data.time}
+                       replies={props.data.replies}/>
             </div> 
         </div>
     )

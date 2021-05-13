@@ -18,9 +18,7 @@ function Reply(props) {
         <div className="reply">
             <p className="seeReply">댓글 {replyList.length}개 모두 보기</p>
             {replyList.map((a) => {
-                return <OneReply name={a.name}
-                                 reply={a.reply}
-                                 isLiked={a.isLiked}/>
+                return <OneReply data={a}/>
             })}
             <p className="time">{props.time} 전</p>
             <div className="input">
