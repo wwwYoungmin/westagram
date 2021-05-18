@@ -31,6 +31,22 @@ function SideBox() {
             {recommendData.map((a)=>{
                 return <Recommend data={a}/>
             })}
+            <div className="appendix">
+                <ul>
+                    <li><a>소개</a></li> ∙ 
+                    <li><a>도움말</a></li> ∙ 
+                    <li><a>홍보 센터</a></li> ∙ 
+                    <li><a>API</a></li> ∙ 
+                    <li><a>채용 정보</a></li> ∙ 
+                    <li><a>개인정보처리방침</a></li> ∙ 
+                    <li><a>약관</a></li> ∙ 
+                    <li><a>위치</a></li> ∙ 
+                    <li><a>인기 계정</a></li> ∙ 
+                    <li><a>해시태그</a></li> ∙ 
+                    <li><a>언어</a></li>
+                </ul>
+                <p>© 2021 INSTAGRAM FROM FACEBOOK</p>
+            </div>
         </div>
     )
 }
