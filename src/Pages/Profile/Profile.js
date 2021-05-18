@@ -4,7 +4,7 @@ import "./Profile.scss";
 import { profileData } from "./profileData";
 import Loading from "../../Components/Loading/Loading";
 import ProfileHeader from "./Components/ProfileHeader/ProfileHeader";
-import ProfileStories from "./Components/ProfileStories/ProfileStories";
+import { ProfileStories } from "../../Components/Stories/Stories";
 import ProfileFeed from "./Components/ProfileFeed/ProfileFeed";
 
 function Profile() {
@@ -39,7 +39,7 @@ function Profile() {
             followedBy={data.followedBy}
             followedNum={data.follwedNum}/>
           <ProfileStories
-            roundStory={data.roundStory}/>
+            profileStory={data.profileStory}/>
           <ProfileFeed
             profilePosts={data.profilePosts}
             profileReels={data.profileReels}

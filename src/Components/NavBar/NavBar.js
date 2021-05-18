@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavBar.scss"
-import { SmallProfile } from '../RoundImage/RoundImage'
+import { IconProfile } from '../RoundImage/RoundImage'
 import { Home, Message, Compass, Heart } from "../IconSet/IconSet"
 import { profileData } from "../../Pages/Profile/profileData"
 import { useHistory } from 'react-router-dom'
@@ -21,7 +21,7 @@ function NavBar() {
                     <Message />
                     <Compass />
                     <Heart />
-                    <SmallProfile
+                    <IconProfile
                         profileImg={profileData[1].profileImg}/>
                 </div>
             </div>

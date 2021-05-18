@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Bottom.scss';
+import './PostTexts.scss';
 
-function Bottom(props) {
+function PostTexts(props) {
     // let variableILiked = props.iLiked;
     // let variableSaved = props.saved;
     const [iLiked, setILiked] = useState(props.iLiked);
@@ -40,4 +40,4 @@ function Bottom(props) {
     )
 }
 
-export default Bottom
+export default PostTexts

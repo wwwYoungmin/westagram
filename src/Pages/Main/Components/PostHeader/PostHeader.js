@@ -1,15 +1,15 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import './Top.scss'
+import './PostHeader.scss'
 
-function Top(props) {
+function PostHeader(props) {
     let history = useHistory();
     const goToProfile = () => {
         history.push(`/profile/${props.id}`)
     }
 
     return (
-        <div className="top">
+        <div className="postHeader">
             <img src={props.img} onClick={goToProfile}></img>
             <p className="name" onClick={goToProfile}>{props.name}</p>
             <p className="button">...</p>
@@ -17,4 +17,4 @@ function Top(props) {
     )
 }
 
-export default Top
+export default PostHeader

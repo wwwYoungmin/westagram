@@ -1,5 +1,5 @@
 import React from 'react'
-import { RoundProfile } from '../../../../Components/RoundImage/RoundImage'
+import { BigProfile } from '../../../../Components/RoundImage/RoundImage'
 import NameNStats from './NameNStats/NameNStats'
 import Description from './Description/Description'
 import './ProfileHeader.scss';
@@ -8,7 +8,7 @@ function ProfileHeader(props) {
     return (
         <div className="profileHeader">
             <div className="profileImage">
-                <RoundProfile
+                <BigProfile
                     profileImg={props.profileImg}/>
             </div>
             <div className="profileDescription">

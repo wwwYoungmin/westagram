@@ -1,5 +1,6 @@
 import React from 'react'
 import "./IconSet.scss"
+import { useHistory } from 'react-router-dom';
 
 export function Heart() {
     return (
@@ -20,8 +21,13 @@ export function Message() {
 }
 
 export function Home() {
+    let history = useHistory();
+    const goToMain = () => {
+        history.push("/")
+    }
+
     return (
-        <img className="home" src="/image/home.png"></img>
+        <img className="home" src="/image/home.png" onClick={goToMain}></img>
     )
 }
 

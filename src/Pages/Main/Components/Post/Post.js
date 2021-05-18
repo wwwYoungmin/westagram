@@ -1,19 +1,19 @@
 import React from 'react'
 import './Post.scss';
-import Top from './Top'
-import Middle from './Middle'
-import Bottom from './Bottom'
-import Reply from './Reply'
+import PostHeader from '../PostHeader/PostHeader'
+import PostImages from '../PostImages/PostImages'
+import PostTexts from '../PostTexts/PostTexts'
+import Reply from '../PostReplies/Reply'
 
 function Post(props) {
     return (
         <div className="post">
-            <Top id={props.data.id}
+            <PostHeader id={props.data.id}
                  name={props.data.name}
                  img={props.data.img}/>
-            <Middle imgs={props.data.imgs}/>
+            <PostImages imgs={props.data.imgs}/>
             <div>
-                <Bottom iLiked={props.data.iLiked}
+                <PostTexts iLiked={props.data.iLiked}
                         saved={props.data.saved}
                         liked={props.data.liked}
                         likedImg={props.data.likedImg}

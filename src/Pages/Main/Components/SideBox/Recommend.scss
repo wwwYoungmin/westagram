@@ -1,0 +1,42 @@
+.recommend {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px 4px 0;
+    .recommendedImg {
+        width: 42px;
+        height: 42px;
+        position: relative;
+        margin-right: 12px;
+        .profileImg {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            z-index: 1;
+        }
+        .roundLive {
+            min-width: 42px;
+        }
+    }
+    .recommendedName {
+        width: 215px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #262626;
+        line-height: 18px;
+    }
+    .whyRecommend {
+        font-size: 12px;
+        font-weight: 400;
+        color: #8e8e8e;
+        line-height: 14px;
+    }
+    .follow {
+        color: #0095f6;
+        margin: 0 4px 0 0;
+        cursor: pointer;
+        min-width: 37px;
+    }
+}
