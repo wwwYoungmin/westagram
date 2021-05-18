@@ -1,0 +1,43 @@
+.sideBox {
+    position: sticky;
+    top: 88px;
+    left: 918.5px;
+    .sideProfile {
+        display: flex;
+        align-items: center;
+        padding: 18px 16px 10px 0;
+        img {
+            width: 56px;
+            height: 56px;
+            margin-right: 8px;
+        }
+        .name {
+            width: 205px;
+            margin-left: 12px;
+            font-weight: 600;
+            color: #262626;
+        }
+        .description {
+            margin-left: 12px;
+            font-weight: 400;
+            color: #8e8e8e;
+        }
+        .switch {
+            font-weight: 400;
+            color: #0095f6;
+            cursor: pointer;
+        }
+    }
+    .recommendHeader {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 16px 8px 0;
+        p { font-weight: 600;
+            color: #8e8e8e;
+            .seeAll {
+                color: #262626;
+            } 
+        }
+    }
+}

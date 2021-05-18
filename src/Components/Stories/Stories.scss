@@ -1,0 +1,72 @@
+.profileStories {
+    margin: 0 0 44px 0;
+    display: flex;
+    align-items: center;
+    ul {
+        display:flex;
+        overflow-x:scroll;
+        .margin {
+            width:24px;
+        }
+        .oneStory{
+            width: 89px;
+            padding: 5px 15px 10px 15px;
+            .oneRound {
+                width: 87px;
+                height: 87px;
+                border-radius: 50%;
+                border: 1.5px solid #ebebeb;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .storyName {
+                padding-top: 15px;
+                font-weight: 600;
+                overflow-x: hidden;
+            }
+            img {
+                width: 77px;
+                height: 77px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.mainStories {
+    width: 611px;
+    overflow:hidden;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    padding: 16px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    ul {
+        display:flex;
+        overflow-x: hidden;
+        .margin {
+            width:20px;
+            padding: 0 5px;
+            height:auto;
+        }
+        .mainStory{
+            width: 80px;
+            padding: 0 8px;
+            .mainStoryName {
+                width: 60px;
+                margin-top: 4px;
+                margin-left: 2.5px; 
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: 300;
+                overflow-x: hidden;
+                text-overflow: ellipsis;
+                text-align: center;
+            }
+        }
+    }
+}

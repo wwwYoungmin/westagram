@@ -9,8 +9,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        // .navBarLogo {
-        // }
+        .navBarLogo {
+            img {
+                width: auto;
+                height: 26px;
+                margin-top: 12px;
+            }
+        }
         img {
             width: auto;
             height: 22px;
@@ -20,7 +25,7 @@
         input {
             width: 198px;
             height: 14px;
-            padding: 7px;
+            padding: 5.5px;
             margin: 10px;
             font-size: 14px;
             color: #828282;

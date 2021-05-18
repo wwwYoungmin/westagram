@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import './Middle.scss';
+import './PostImages.scss';
 
-function Middle(props) {
+function PostImages(props) {
     const [index,setIndex] = useState(0);
     const eventHandlerR = () => {
         if (index < props.imgs.length-1) {
@@ -15,7 +15,7 @@ function Middle(props) {
     }
 
     return (
-        <div className="middle">
+        <div className="postImages">
             <button className="leftB" onClick={eventHandlerL}>&lt;</button>
             <img src = {props.imgs[index]}></img>
             <button className="rightB" onClick={eventHandlerR}>&gt;</button>
@@ -23,4 +23,4 @@ function Middle(props) {
     )
 }
 
-export default Middle
+export default PostImages

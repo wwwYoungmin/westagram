@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import { postdata } from './data';
-import Post from './Post';
-import Loading from '../../../Components/Loading/Loading';
+import { postdata } from '../maindata';
+import Post from '../Post/Post';
+import Loading from '../../../../Components/Loading/Loading';
 import './Feed.scss'
 
 function Feed() {
