@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 export function BigProfile(props) {
   return <div className="bigProfile">
             <img src={props.profileImg} />
-            <img className="roundLive" src="/image/roundLive.png" />     
+            <img className="roundLive" src="/image/roundLive2.png" />     
          </div>
 }
 
@@ -13,7 +13,7 @@ export function MediumProfile(props) {
   return (
     <div className="mediumProfile">
       <img className="mediumImage" src={props.img} />
-      <img className="roundLive" src="/image/roundLive.png" />
+      <img className="roundLive" src="/image/roundLive2.png" />
     </div>
   )
 }
@@ -25,7 +25,7 @@ export function SmallProfile(props) {
   }
   return <div className="smallProfile" onClick={goToProfile}>
             <img className="profileImg" src={props.profileImg} /> 
-            <img className="roundLive" src="/image/roundLive.png" /> 
+            <img className="roundLive" src="/image/roundLive2.png" /> 
          </div>
 }
 
