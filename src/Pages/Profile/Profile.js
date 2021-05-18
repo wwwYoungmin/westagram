@@ -21,13 +21,14 @@ function Profile() {
 
   useEffect(()=> {
     setTimeout(()=>{
-      getData();}, 1000)
+      getData();}, 500)
     return () => {}
   }, [])
 
 
   return (
-    <div className="profile">
+    <div className="profileCover">
+      <div className="profile">
           {!data ? <Loading /> : <>
           <ProfileHeader
             profileImg={data.profileImg}
@@ -47,6 +48,7 @@ function Profile() {
             </>
           }
      </div>
+    </div>
   );
 }
 

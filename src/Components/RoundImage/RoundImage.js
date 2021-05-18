@@ -1,11 +1,22 @@
 import React from "react";
 import "./RoundImage.scss";
+import { useHistory } from 'react-router-dom';
 
 export function RoundProfile(props) {
   return <div className="roundProfile">
             <img src={props.profileImg} />
             <img className="roundLive" src="/image/roundLive.png" />     
-         </div>;
+         </div>
+}
+
+export function SmallProfile(props) {
+  let history = useHistory();
+  const goToProfile = () => {
+      history.push("/profile/1")
+  }
+  return <span className="smallProfile" onClick={goToProfile}>
+            <img src={props.profileImg} />  
+         </span>
 }
 
 export function RoundStory(props) {
