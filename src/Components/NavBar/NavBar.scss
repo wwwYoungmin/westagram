@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #dbdbdb;
+    .navBarContents {
+        width: 935px;
+        height: 54px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // .navBarLogo {
+        // }
+        img {
+            width: auto;
+            height: 22px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        input {
+            width: 198px;
+            height: 14px;
+            padding: 7px;
+            margin: 10px;
+            font-size: 14px;
+            color: #828282;
+            background-color: #fafafa;
+            border: solid 1px #dbdbdb;
+            border-radius: 3px;
+            text-align: center;
+        }
+    }
+}
